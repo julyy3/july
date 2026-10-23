@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-area {
+    margin-bottom: 10px;
+}
+
+.input-area label {
+    font-size: 16px;
+}
+
+input {
+    width: 150px;
+    padding: 7px;
+    margin-left: 5px;
+}
+
+button {
+    padding: 7px 12px;
+    margin-top: 8px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+fieldset {
+    width: 650px;
+    min-height: 180px;
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.number-row {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+
+.number {
+    width: 60px;
+}
+
+.type {
+    width: 70px;
+    font-weight: bold;
+}
+
+.action-btn {
+    padding: 4px 10px;
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+#result {
+    margin-top: 15px;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    line-height: 1.8;
+}
+
+.sort-area {
+    margin-top: 20px;
+}
+
+select {
+    padding: 6px;
+}

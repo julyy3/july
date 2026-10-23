@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Web Output #1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Javascript Web Output #1</h2>
+
+    <div class="input-area">
+        <label for="numberInput">Insert any Positive Numbers:</label>
+        <input type="number" id="numberInput" min="1">
+        <br>
+
+        <button id="insertButton">Insert</button>
+        <button id="clearEntryButton">Clear Entry</button>
+    </div>
+
+    <fieldset>
+        <legend>Inserted Numbers</legend>
+        <div id="numberList"></div>
+        <div id="result"></div>
+    </fieldset>
+
+    <br>
+
+    <button id="clearItemsButton">Clear Items</button>
+    <button id="totalButton">Get Total</button>
+    <button id="highestLowestButton">
+        Identify Highest and Lowest Number
+    </button>
+
+    <div class="sort-area">
+        <label for="sortSelect">Sort by:</label>
+        <select id="sortSelect">
+            <option value="">Please select</option>
+            <option value="ascending">Ascending</option>
+            <option value="descending">Descending</option>
+        </select>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
